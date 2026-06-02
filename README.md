@@ -55,4 +55,4 @@ Any observable change that impacts released product quality — regression or co
 | **Quality KPI Dashboard** | Deep-linked from Pillar 3; must support parameterized linking by product + release |
 | **Jira Quality sub-tickets** | Source for quality target values extracted at product setup |
 | **Customer delivery information (CM ticket)** | Source for automatic customer view scoping (feature set + country scope) |
-| **Dennis van Nooij** | NDS.Live compiled map stats input for Pillar 2 |
+| **NDS.Live PM** | NDS.Live compiled map stats input for Pillar 2 |

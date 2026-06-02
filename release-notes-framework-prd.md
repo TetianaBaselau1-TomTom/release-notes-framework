@@ -275,11 +275,11 @@ Comparative feature statistics across map compilation outputs, giving customers 
 * **Uncompiled Map Stats** — Feature counts and deltas for the raw/uncompiled map data (e.g., road segments, POIs, addresses). Supports comparison against any previously selected release.
 * **Compiled Map Stats** — Feature counts and deltas for compiled map formats (NDS.live or other format targets). Same comparison capability as uncompiled stats.
 
-    * Other parts - to be added by @Dennis van Nooij
+    * Other parts - to be added by NDS.Live PM
     
 * **Release Selector** — Users can pick any past release as the baseline for delta computation.
 
-**Requirements: - might be extended for the NDS.live part by** @Dennis van Nooij
+**Requirements: - might be extended for the NDS.live part by** NDS.Live PM
 
 * Stats are automatically extracted from ADP; no manual entry of numbers.
 * Each statistic data point must include the following required fields: **name**, **feature**, **country**, **unit**, and **value**. All other fields (e.g., deltas, percentages) are derived and calculated by the system.
@@ -543,7 +543,7 @@ The framework must validate these conditions and surface a clear, actionable sta
 2. What is the exact ADP API contract for feature statistics and quality metrics (release-scoped queries)?
 3. Does the Quality KPI dashboard today support parameterized deep-linking by product + release?
 4. What Jira fields/fix-version schema should drive the auto-population of Highlights and Known Issues?
-5. Details of NDS.Live Compiled Map stats sections — to be provided by @Dennis van Nooij.
+5. Details of NDS.Live Compiled Map stats sections — to be provided by NDS.Live PM.
 6. **What regression and improvement thresholds should be configured per map product (e.g., feature count ±5%, coverage ±2%)?**
 7. **Should thresholds be uniform across statistics/metrics, or customizable per metric?**
 8. **How should automation handle statistics/metrics that are new in this release (no n-1 baseline)? Should they be flagged separately?**

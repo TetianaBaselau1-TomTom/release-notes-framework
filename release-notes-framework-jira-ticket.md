@@ -41,7 +41,7 @@ Automated ingestion and delta comparison of feature counts from the **Analytical
 
 **Sub-components:**
 - **Uncompiled Map Stats** — feature counts and release-to-release deltas for raw map data
-- **Compiled Map Stats (NDS.Live)** — primary consumer-facing stats: layer stats, road class statistics (FRC/ARC/PRC in km), feature statistics (attribute km or feature count), and Compilation Report. Details for the NDS.Live section TBD with Dennis van Nooij
+- **Compiled Map Stats (NDS.Live)** — primary consumer-facing stats: layer stats, road class statistics (FRC/ARC/PRC in km), feature statistics (attribute km or feature count), and Compilation Report. Details for the NDS.Live section TBD with NDS.Live PM
 - **Release Selector** — any past release as the delta baseline
 
 **Data model:** each record requires `name`, `feature`, `country`, `unit`, `value`. Deltas are derived by the system.

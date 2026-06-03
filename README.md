@@ -44,6 +44,7 @@ Any observable change that impacts released product quality — regression or co
 | `release-notes-framework-prd.md` | Local sync of the Confluence PRD (source of truth is Confluence). Regenerated after each PRD update. |
 | `release-notes-framework-jira-ticket.md` | Jira Epic description for Pillar 1 & 2. |
 | `release-notes-framework-jira-ticket-pillar3.md` | Jira Epic description for Pillar 3. |
+| `release-notes-prd-sync.skill` | Claude Code skill — invoke with `/release-notes-prd-sync` to propagate any PRD change to all destinations: Confluence, local file, this repo, and a PR to `tomtom-internal/orbis-release-notes-service`. |
 
 ---
 
